@@ -1,0 +1,7 @@
+ID3-Ruby TODO
+=============
+
+[ ] ID3v22 frame parsing
+[ ] ID3v22 frame descriptions
+[ ] ID3v2 extended header parsing
+[ ] ID3v2 header flag handling
