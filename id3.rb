@@ -1,11 +1,19 @@
 #!/usr/bin/env ruby
 
+#######################################################################
+# ID3-Ruby - Pure Ruby ID3 parser.                                    #
+# by Paul Duncan <pabs@pablotron.org>                                 #
+#######################################################################
+
 class ID3
   attr_accessor :header, :version, :frames,
-                :title, :track, :artist, :album, :year, :genre, :comment,
-                :FRAME_DESCRIPTIONS
+                :title, :track, :artist, :album,
+                :year, :genre, :comment
 
-  # options
+  # ID3-Ruby version
+  @@VERSION = '0.1.0'
+
+  # options (this setup sucks and will change)
   DEFAULT_INIT_OPTIONS = {
     :try_id3v1 => true,
   }
@@ -252,9 +260,6 @@ class ID3
     end
   end
 
-
-
-
   #
   # frames keys to pre-parse, and what to assign them to
   #
@@ -499,6 +504,9 @@ class ID3
 
 end
 
+#
+# basic test suite
+#
 if __FILE__ == $0
   ARGV.each { |path| 
     id3 = ID3::new(path)

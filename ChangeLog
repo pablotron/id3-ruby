@@ -8,3 +8,13 @@
 
 * Tue Nov 18 19:47:49 2003, pabs <pabs@pablotron.org>
   * added TODO
+
+* Tue Nov 18 19:49:09 2003, pabs <pabs@pablotron.org>
+  * removed test.rb
+  * added id3-test.rb
+
+* Tue Nov 18 19:52:30 2003, pabs <pabs@pablotron.org>
+  * id3.rb: added basic header
+  * id3-test.rb: added basic header
+  * id3-test.rb: commented out old test, copied test from id3.rb
+  * id3.rb: misc formatting cleanups, added some comments
