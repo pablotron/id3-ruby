@@ -2,3 +2,6 @@
   * initial import
   * added README
   * added ChangeLog
+
+* Tue Nov 18 19:46:02 2003, pabs <pabs@pablotron.org>
+  * removed old-id3.rb
